@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center">
-        <a class="navbar-brand text-light ml-5 pl-5 pb-0 mb-0" href="#">FLATI</a>
+  <header class="bg-dark">
+    <div class="container w-75">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center">
+        <a class="navbar-brand text-light  pb-0 mb-0" href="#">FLATI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="nav nav-tabs justify-content-center pb-0 mb-0">
-                <li class="nav-item">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav nav-pills justify-content-center pb-0 mb-0">
+                <li class="nav-item  ">
                   <a class="nav-link active" href="#">HOME</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                   <a class="nav-link" href="#">PAGES</a>
                 </li>
                 <li class="nav-item">
@@ -42,8 +44,103 @@
           </ul>
         </div>
       </nav>
-      <div class="banner"><img id="banner" src="./images/bg-header.png" alt=""></div>
+     </div>
+
+     <div class="banner"><img id="banner" src="./images/bg-header.png" alt=""></div>
+
     </header> 
-    
+    <!-- fini mon header nav et banner -->
+
+    <section class="jumbo alert alert-dark mb-0">
+      <div class="container w-75 text-center py-5  my-0">
+         <p>I think most <span class="badge badge-primary">programmers </span> spend the first 5 years of their career mastering <span id="complex">complexity </span>and the rest of their learning <span id="simplicity">simplicity- </span></h2>
+         <p class="py-4">Buzz Anderson</p>
+      </div>
+    </section>
+    <section class="diff mt-0">
+        <div class="container">
+            <div class="row py-5 text-center ">
+              <div class="col-2 alert alert-dark mr-5 ml-5">
+                <span><i class="fas fa-pencil-alt fa-x"></i></span>
+                <h3 class="pt-2">DESIGN</h3>
+                <a href="">buid for & by nerds</a>
+                <p>Like you, we love building awesome products on the web. We love it so much, we decided too help people just like us doo it easier, better, and faster.</p>
+              </div>
+              <div class="col-2 alert alert-dark ml-5 mr-5">
+                <span><i class="fas fa-umbrella fa-x"></i></span>
+                <h3 class="pt-2">CODE</h3>
+                <a href="">buid for & by nerds</a>
+                <p>Like you, we love building awesome products on the web. We love it so much, we decided too help people just like us doo it easier, better, and faster.</p>
+              </div>
+              <div class="col-2 alert alert-dark ml-5 mr-5">
+                <span><i class="fas fa-flask fa-x"></i></span>
+                <h3 class="pt-2">CREATE</h3>
+                <a href="">buid for & by nerds</a>
+                <p>Like you, we love building awesome products on the web. We love it so much, we decided too help people just like us doo it easier, better, and faster.</p>
+              </div>
+              <div class="col-2 alert alert-dark ml-5">
+                    <span><i class="fas fa-book fa-x"></i></span>
+                    <h3 class="pt-2">SUPPORT</h3>
+                    <a href="">buid for & by nerds</a>
+                    <p>Like you, we love building awesome products on the web. We love it so much, we decided too help people just like us doo it easier, better, and faster.</p>
+              </div>
+            </div>
+            <!-- les deusieme row  -->
+        <div class="row px-4">
+          <div class="col-5">
+            <h2>Recent Work</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas eaque alias consequatur ad. Ab, ad quaerat molestias et similique magnam magni fuga .</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat pariatur ipsam aspernatur modi, quas ipsum molestias sequi vero eveniet accusantium quis aliquid tempora ut blanditiis natus. Nulla illo reprehenderit consequatur!</p>
+            <a class="bg-primary p-2" href="">view portfolio</a>
+          </div>
+          <!-- les cartes -->
+          <div class="col-7 align-self-center text-light">
+            <div class="row">  
+              <!-- premiere colonne  -->
+              <div class="col-4">
+              <div class="card bg-secondary">
+                <img src="./images/flati-design-screenshot1.png" class="card-img-top">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center">CATALOGUE</h5>
+                  <p class="card-text text-light">Some quick example text to build on the card title and make</p>
+                </div>
+                </div>
+              </div>
+              <!-- deuxieme col -->
+             <div class="col-4">
+               <div class="card bg-secondary">
+                  <img src="./images/flati-design-screenshot2.png" class="card-img-top">
+                  <div class="card-body p-2">
+                    <h5 class="card-title text-center">LOUPE</h5>
+                    <p class="card-text text-light">Some quick example text to build on the card title and make</p>
+                  </div>
+                </div>
+              </div>
+             <!-- troisieme col -->
+              <div class="col-4">
+                <div class="card bg-secondary" >
+                    <img src="./images/flati-design-screenshot3.png" class="card-img-top">
+                    <div class="card-body p-2">
+                      <h5 class="card-title text-center">RETRO ROCKET</h5>
+                      <p class="card-text text-light">Some quick example text to build on the card title and make</p>
+                    </div>
+                  </div>
+               </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center mt-0 p-5">
+      <h3 class="text-uppercase">get in touch</h3>
+      <p>we're social and we'd love be hear from you! free to send us on Google Plus, follow us on Twitter and join us on Facebook.</p>
+      <a href=""><i class="fab fa-twitter fa-2x ml-2 "></i></a>
+      <a href=""><i class="fab fa-facebook-f fa-2x ml-2 "></i></a>
+      <a href=""><i class="fab fa-linkedin-in fa-2x ml-2"></i></a>
+      <a href=""><i class="fab fa-google-plus-g fa-2x ml-2"></i></a>
+      <a href=""><i class="fab fa-vuejs fa-2x ml-2 "></i></a>
+    </footer>
+    <div class="copyright p-2 bg-dark text-center">
+      <p>FLATI 2018 All Right Reserver: Template by Spiral Pixel</p>
+    </div>
 </body>
 </html>

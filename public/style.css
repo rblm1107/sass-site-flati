@@ -9513,12 +9513,63 @@ h3 {
   }
 }
 a {
-  text-decoration: none;
+  color: #FFF;
 }
 
 #banner {
   height: 25%;
   width: 100%;
+}
+
+.jumbo p {
+  font-size: 30px;
+  font-weight: 100px;
+  color: #666;
+}
+
+#complex {
+  font-weight: 500;
+  color: #08E;
+}
+
+#simplicity {
+  font-weight: 500;
+  color: #444;
+}
+
+.col-2 a {
+  color: #08E;
+}
+.col-2 span {
+  background-color: #fff;
+  color: #08E;
+  border-radius: 100%;
+  padding: 5px
+}
+
+p {
+  font-size: 12px;
+}
+
+.col-7 p {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.diff{
+  background-color: rgba(230,230,230, 0.5)
+}
+
+footer {
+  background-color: #259;
+  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /*# sourceMappingURL=style.css.map */
