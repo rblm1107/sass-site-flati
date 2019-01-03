@@ -9516,6 +9516,16 @@ a {
   color: #FFF;
 }
 
+nav a {
+  color: rgba(200, 200, 200, 0.3);
+}
+nav a:hover {
+  background-color: rgba(30, 80, 150, 0.3);
+  width: 100px;
+  height: 50px;
+  border-top: 5px solid #1e5096;
+}
+
 #banner {
   height: 25%;
   width: 100%;
@@ -9544,18 +9554,25 @@ a {
   background-color: #fff;
   color: #08E;
   border-radius: 100%;
-  padding: 5px
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 p {
   font-size: 12px;
+  color: rgba(50, 50, 50, 0.7);
 }
 
 .col-7 p {
   color: rgba(255, 255, 255, 0.5) !important;
 }
-.diff{
-  background-color: rgba(230,230,230, 0.5)
+
+.txt-opacity {
+  color: rgba(100, 100, 100, 0.5);
 }
 
 footer {
@@ -9564,8 +9581,11 @@ footer {
   color: rgba(255, 255, 255, 0.5);
 }
 
-footer a {
+footer a, footer p {
   color: rgba(255, 255, 255, 0.5);
+}
+footer h3 {
+  letter-spacing: 1rem;
 }
 
 .copyright {

@@ -7,10 +7,21 @@ $gris: #444
 
 a 
     color: #FFF
+  
+
+nav
+   a 
+      color: rgba(200,200,200, 0.3) 
+   & a:hover 
+      background-color: rgba(30,80,150, 0.3)   
+      width: 100px
+      height: 50px 
+      border-top: 5px solid rgb(30, 80, 150)  
 #banner    
     height: 25%
     width: 100%
-
+// fin de header
+   
 .jumbo p 
    font-size: 30px
    font-weight: 100px
@@ -21,25 +32,39 @@ a
 #simplicity
    font-weight: 500
    color: $gris
+
+   //la section de deux row
 .col-2 
    a 
     color: $bleu
    & span 
     background-color: #fff
     color: $bleu 
-    width: 50px
-    height: 100px 
-    border-radius: 100%    
+    border-radius: 100%   
+    width: 3rem
+    height: 3rem
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: auto
 p 
-    font-size: 12px  
+    font-size: 12px
+    color: rgba(50,50,50, 0.7)  
 
 .col-7 p 
    color: rgba(255,255,255,0.5) !important
+.txt-opacity
+   color: rgba(100,100,100, 0.5)
+
+//footer
 footer 
    background-color: #259
    opacity: 0.8
    color: rgba(255,255,255, 0.5)
-footer a 
-   color: rgba(255,255,255, 0.5)   
+footer 
+   a,p 
+      color: rgba(255,255,255, 0.5) 
+   h3 
+      letter-spacing: 1rem
 .copyright 
    color: rgba(255,255,255, 0.4)   
