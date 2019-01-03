@@ -9516,6 +9516,11 @@ a {
   color: #FFF;
 }
 
+.nav-link {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0 !important;
+}
+
 nav a {
   color: rgba(200, 200, 200, 0.3);
 }
@@ -9547,10 +9552,10 @@ nav a:hover {
   color: #444;
 }
 
-.col-2 a {
+.col a {
   color: #08E;
 }
-.col-2 span {
+.col span {
   background-color: #fff;
   color: #08E;
   border-radius: 100%;
@@ -9588,8 +9593,8 @@ footer h3 {
   letter-spacing: 1rem;
 }
 
-.copyright {
-  color: rgba(255, 255, 255, 0.4);
+.copyright p {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
